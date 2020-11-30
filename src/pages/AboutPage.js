@@ -2,6 +2,8 @@ import React from 'react'
 import Footer from "../Components/Footer";
 import {Helmet} from "react-helmet";
 
+import rose from '../assets/images/rose.jpg'
+
 const AboutPage = () => {
     return(
         <>
@@ -42,8 +44,8 @@ const AboutPage = () => {
                                                     </p>
                                                 </p>
                                             </div>
-                                            <div className="col-xs-12 col-md-6">
-
+                                            <div style={{paddingLeft: '10vw'}} className="col-xs-12 col-md-6">
+                                                <img src={rose} alt="rose" height={500}/>
                                             </div>
                                         </div>
                                     </div>
