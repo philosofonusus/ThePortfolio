@@ -35,7 +35,7 @@ const Carouseler = () => {
                                 </button>
                             )
                         }
-                        autoPlay infiniteLoop showArrows
+                              autoPlay infiniteLoop showArrows
                               stopOnHover swipeable showStatus={false}
                               centerMode centerSlidePercentage={34.3}
                               transitionTime={600}>
