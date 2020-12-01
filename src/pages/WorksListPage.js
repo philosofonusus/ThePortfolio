@@ -20,7 +20,7 @@ const WorksListPage = () => {
                                 <h1 className="h2">02 : Works</h1>
                                 <p>
                                     This is my works page. There is only my latest works, because my previous ones are kinda trash, and
-                                     I don't like them to be shown, but maybe in future I will add them.
+                                     I don't like them to be shown, but maybe soon I will add them.
                                 </p>
                             </div>
                         </div>

@@ -14,7 +14,7 @@ const Carouseler = () => {
     const plug = {title: 'Plug', description: 'A test plug', href: '#', number: '999/999', img: proj3}
     const items = [
         {title: 'Tentacles Portfolio', description: 'This is my current portfolio. It took me 4 hours to dev and imagine. It is fully written with react js with some old bootstrap which i like', href: 'https://my-tentacles-are-in-you.netlify.app/', number: '001/006', img: proj1},
-        {title: 'Spotify Clone', description: 'It is a replica of basic spotify\'s functionality. I have used spotify api and react js with some basic concepts of Redux.', href: 'https://github.com/philosofonusus/spotify-clone', number: '002/006', img: proj2},
+        {title: 'Spotify Clone', description: 'It is the replica of basic spotify\'s functionality. I have used spotify api and react js with some basic concepts of Redux.', href: 'https://github.com/philosofonusus/spotify-clone', number: '002/006', img: proj2},
         plug,
         plug
     ]
