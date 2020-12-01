@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react'
 import {Helmet} from 'react-helmet'
-import space from '../assets/maxresdefault.jpg'
+import space from '../assets/images/maxresdefault.jpg'
 import {TypedConf} from "../hooks/typed.hook";
 import {MovingBackGround} from "../hooks/movingBackground.hook";
 

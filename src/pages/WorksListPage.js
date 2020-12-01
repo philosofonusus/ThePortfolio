@@ -18,12 +18,9 @@ const WorksListPage = () => {
                         <div className="col-sm-8 col-sm-offset-2 section-container-spacer">
                             <div className="text-center">
                                 <h1 className="h2">02 : Works</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto at beata
-                                    e corporis cum delectus deserunt dignissimos distinctio earum eius eveniet exercitatio
-                                    nem facere fuga harum illo inventore, ipsa ipsum laboriosam laudantium libero nesci
-                                    unt perferendis placeat
-                                    quae quaerat sed soluta tempora tempore vel voluptatibus voluptatum? Commodi corpori
-                                    s et fugit ipsa sit.
+                                <p>
+                                    This is my works page. There is only my latest works, because my previous ones are kinda trash, and
+                                     I don't like them to be shown, but maybe in future I will add them.
                                 </p>
                             </div>
                         </div>

@@ -10,7 +10,7 @@ const CarouselItem = (props) => {
                 <h4>{props.number}</h4>
                 <h3>{props.title}</h3>
                 <p>{props.description}</p>
-                <a href={props.href} title="" className="btn btn-default">Discover</a>
+                <a href={props.href} title="" className='btn btn-default'>Discover</a>
             </div>
         </div>
     )
