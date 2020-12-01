@@ -3,8 +3,10 @@ import Footer from "../Components/Footer";
 import {Helmet} from "react-helmet";
 
 import rose from '../assets/images/rose.jpg'
+import {useWindowSize} from "../hooks/windowSize.hook";
 
 const AboutPage = () => {
+    const [width] = useWindowSize()
     return(
         <>
             <Helmet>
@@ -24,27 +26,36 @@ const AboutPage = () => {
                                     <div className="col-md-10 col-md-offset-1">
                                         <div className="row">
                                             <div className="col-xs-12 col-md-6">
-                                                <h3>Consectetur adipiscing elit</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                                <h3>
+                                                    Consectetur adipiscing elit
+                                                </h3>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
                                                     luctus at sem quis varius.
                                                     Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                                                    per inceptos himenaeos. Cras ultrices hendrerit nisl.</p>
-                                                <h3>Ut enim ad minim </h3>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                    per inceptos himenaeos. Cras ultrices hendrerit nisl.
+                                                </p>
+                                                <h3>
+                                                    Ut enim ad minim
+                                                </h3>
+                                                <p>
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit esse
                                                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                                     cupidatat non
                                                     proident, sunt in culpa qui officia deserunt mollit anim id est
                                                     laborum.
-                                                    <h3>Maecenas luctus at sem quis varius</h3>
-                                                    <p>
-                                                        Class aptent taciti sociosqu ad litora torquent per conubia
-                                                        nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis
-                                                        elit sagittis, at hendrerit lorem venenatis. Morbi accumsan
-                                                        iaculis blandit. Cras ultrices hendrerit nisl.
-                                                    </p>
+                                                </p>
+                                                <h3>
+                                                    Maecenas luctus at sem quis varius
+                                                </h3>
+                                                <p>
+                                                    Class aptent taciti sociosqu ad litora torquent per conubia
+                                                    nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis
+                                                    elit sagittis, at hendrerit lorem venenatis. Morbi accumsan
+                                                    iaculis blandit. Cras ultrices hendrerit nisl.
                                                 </p>
                                             </div>
-                                            <div style={{paddingLeft: '10vw'}} className="col-xs-12 col-md-6">
+                                            <div style={width < 992 ? {justifyContent: 'center', display: 'flex'} :{paddingLeft: '10vw'}} className="col-xs-12 col-md-6">
                                                 <img src={rose} alt="rose" height={500}/>
                                             </div>
                                         </div>
