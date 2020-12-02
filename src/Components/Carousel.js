@@ -7,17 +7,18 @@ import { useWindowSize } from "../hooks/windowSize.hook";
 
 import proj1 from '../assets/images/maxresdefault.jpg'
 import proj2 from '../assets/images/spotfy-screen.png'
-import proj4 from '../assets/images/SwedishMuseum.png'
-import proj3 from '../assets/images/plug.jpg'
+import proj3 from '../assets/images/SwedishMuseum.png'
+import proj4 from '../assets/images/TheCocktailDb.png'
+import plug_img from '../assets/images/plug.jpg'
 
 const Carouseler = () => {
     const [width] = useWindowSize()
-    const plug = {title: 'Plug', description: 'A test plug', href: '#', number: '999/999', img: proj3}
+    const plug = {title: 'Plug', description: 'A test plug', href: '#', number: '999/999', img: plug_img}
     const items = [
         {title: 'Tentacles Portfolio', description: 'This is my current portfolio. It took me 4 hours to dev and imagine. It is fully written with react js with some old bootstrap which i like', href: 'https://my-tentacles-are-in-you.netlify.app/', number: '001/006', img: proj1},
         {title: 'Spotify Clone', description: 'It is the replica of basic spotify\'s functionality. I have used spotify api and react js with some basic concepts of Redux.', href: 'https://github.com/philosofonusus/spotify-clone', number: '002/006', img: proj2},
-        {title: 'Swedish Museum', description: 'This is web app of Swedish Museum(wp twenty-twenty theme) written in nextJs. Freelance commerce project, so there is no source code.', number: '003/006', img: proj4, href: '#'},
-        plug
+        {title: 'Swedish Museum', description: 'This is web app of Swedish Museum(wp twenty-twenty theme) written in nextJs. Freelance commerce project, so there is no source code.', number: '003/006', img: proj3, href: '#'},
+        {title: 'TheCocktailDb', description: 'This is TheCocktailDb MERN fullstack project.', href: 'https://github.com/philosofonusus/TheCocktailDB', number: '004/006', img: proj4}
     ]
     return (
         <>
