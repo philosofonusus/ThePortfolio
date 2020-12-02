@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react'
 import {Helmet} from 'react-helmet'
-import space from '../assets/images/maxresdefault.jpg'
+import {proj1} from '../Components/Imgs'
 import {TypedConf} from "../hooks/typed.hook";
 import {MovingBackGround} from "../hooks/movingBackground.hook";
 
@@ -22,7 +22,7 @@ const MainPage = () => {
                     </title>
                 </Helmet>
                 <div ref={bg} className="hero-full-container background-image-container white-text-container"
-                     style={{backgroundImage: `url(${space})`}}>
+                     style={{backgroundImage: `url(${proj1})`}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-xs-12">

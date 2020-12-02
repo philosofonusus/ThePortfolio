@@ -8,7 +8,7 @@ import { useWindowSize } from "../hooks/windowSize.hook";
 import {proj1} from './Imgs'
 import {proj2} from './Imgs'
 import {proj3} from './Imgs'
-import proj4 from '../assets/images/TheCocktailDb.png'
+import proj4 from '../assets/images/TheCocktailDb.jpg'
 
 const Carouseler = () => {
     const [width] = useWindowSize()
