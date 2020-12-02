@@ -1,10 +1,19 @@
 import React from "react";
 
 const CarouselItem = (props) => {
+    const [isLoaded, setIsLoaded] = React.useState(false);
     return(
         <div style={{margin: "0 10px"}}>
-            <a href={props.href} title="" className="black-image-project-hover" style={{overflow: 'hidden'}}>
-                <img src={props.img} alt={props.href} className="img-responsive" />
+            <a href={props.href} title="" className="black-image-project-hover">
+                <img
+                    onLoad={() => {
+                        setIsLoaded(true);
+                    }}
+                    className="full img-responsive"
+                    style={{ opacity: isLoaded ? 1 : 0 }}
+                    alt={props.href}
+                    src={props.img}
+                />
             </a>
             <div className="card-container card-container-lg">
                 <h4>{props.number}</h4>

@@ -1,1 +1,1 @@
-.carousel{ background-color: transparent !important} .slide{ background-color: transparent !important}  .control-dots{display: none;}
+.carousel{ background-color: transparent !important} .slide{ background-color: transparent !important}  .control-dots{display: none;}  .full {transition: opacity 400ms ease 0ms;}
