@@ -9,7 +9,7 @@ const CarouselItem = (props) => {
                     onLoad={() => {
                         setIsLoaded(true);
                     }}
-                    className="full img-responsive"
+                    className="img-responsive"
                     style={{ opacity: isLoaded ? 1 : 0 }}
                     alt={props.href}
                     src={props.img}
