@@ -3,7 +3,7 @@ import React from "react";
 const CarouselItem = (props) => {
     return(
         <div style={{margin: "0 10px"}}>
-            <a href={props.href} title="" className="black-image-project-hover">
+            <a href={props.href} title="" className="black-image-project-hover" style={{overflow: 'hidden'}}>
                 <img src={props.img} alt={props.href} className="img-responsive" />
             </a>
             <div className="card-container card-container-lg">

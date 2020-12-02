@@ -50,7 +50,7 @@ const Carouseler = () => {
                         }
                     </Carousel>
                     :
-                    <div>
+                    <div style={{overflow: 'hidden'}}>
                         {
                             items.map(el => {
                             return <CarouselItem key={el.number} href={el.href} title={el.title} description={el.description} number={el.number} img={el.img}/>
