@@ -31,7 +31,7 @@ const AboutPage = () => {
                                                     Who am I
                                                 </h3>
                                                 <p>
-                                                    Hello I'm Tentacle. Currently, my specialization is web development, and I'm working as a freelance, but
+                                                    Hello I'm Tentacle. Currently, my specialization is web development, but
                                                     I'm trying myself in all directions of development. I'm the type of person who like
                                                     when all the stuff I do is perfect. I like to code some things in my free time and learn new stuff.
                                                     I have no experience of working in teams, but I would like to.
