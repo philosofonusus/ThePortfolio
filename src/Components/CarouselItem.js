@@ -24,4 +24,4 @@ const CarouselItem = (props) => {
         </div>
     )
 }
-export default CarouselItem
+export default React.memo(CarouselItem)
