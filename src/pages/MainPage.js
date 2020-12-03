@@ -32,7 +32,6 @@ const MainPage = () => {
                                             <span ref={typedStrings}>
                                                 <span>I'm Tentacle</span>
                                                 <span>MERN fullstack developer</span>
-                                                <span>Any web work for reliable price</span>
                                             </span>
                                             <span ref={TypeD} />
                                         </h1>
