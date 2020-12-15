@@ -5,10 +5,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import '../styles/carousel.css'
 import { useWindowSize } from "../hooks/windowSize.hook";
 
-import {proj1} from './Imgs'
-import {proj2} from './Imgs'
-import {proj3} from './Imgs'
-import proj4 from '../assets/images/TheCocktailDb.jpg'
+import {proj1, proj2, proj3, proj4} from './Imgs'
+import proj5 from '../assets/images/TheCocktailDb.jpg'
 
 const Carouseler = () => {
     const [width] = useWindowSize()
@@ -16,7 +14,8 @@ const Carouseler = () => {
         {title: 'Tentacles Portfolio', description: 'This is my current portfolio.  It is fully written with react js with some old bootstrap which i like', href: 'https://my-tentacles-are-in-you.netlify.app/', number: '001/006', img: proj1},
         {title: 'Spotify Clone', description: 'It is the replica of basic spotify\'s functionality. I have used spotify api and react js with some basic concepts of Redux.', href: 'https://github.com/philosofonusus/spotify-clone', number: '002/006', img: proj2},
         {title: 'Swedish Museum', description: 'This is web app of Swedish Museum(wp twenty-twenty theme) written in nextJs.', number: '003/006', img: proj3, href: '#'},
-        {title: 'TheCocktailDb', description: 'This is TheCocktailDb MERN fullstack project.', href: 'https://github.com/philosofonusus/TheCocktailDB', number: '004/006', img: proj4}
+        {title: 'TicTacToe', description: 'Simple TicTacToe app. TypeScript + Redux + ReactJs. Simple things the hard way.', number: '004/006', href: 'https://github.com/philosofonusus/TicTacToe', img: proj4},
+        {title: 'TheCocktailDb', description: 'This is TheCocktailDb MERN fullstack project.', href: 'https://github.com/philosofonusus/TheCocktailDB', number: '005/006', img: proj5}
     ]
     return (
         <>
