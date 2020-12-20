@@ -19,8 +19,8 @@ const WorksListPage = () => {
                             <div className="text-center">
                                 <h1 className="h2">02 : Works</h1>
                                 <p>
-                                    This is my works page. There is only my latest works, because my previous ones are kinda trash, and
-                                     I don't like them to be shown, but maybe soon I will add them.
+                                    This is my works page. My previous ones are trash and my freelance job is trash.
+                                    So there will be only works which I like.
                                 </p>
                             </div>
                         </div>
