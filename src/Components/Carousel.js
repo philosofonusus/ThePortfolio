@@ -14,7 +14,7 @@ const Carouseler = () => {
         {title: 'Tentacles Portfolio', description: 'This is my current portfolio.  It is fully written with react js with some old bootstrap which i like', href: 'https://my-tentacles-are-in-you.netlify.app/', number: '001/006', img: proj1},
         {title: 'Spotify Clone', description: 'It is the replica of basic spotify\'s functionality. I have used spotify api and react js with some basic concepts of Redux.', href: 'https://github.com/philosofonusus/spotify-clone', number: '002/006', img: proj2},
         {title: 'Swedish Museum', description: 'This is web app of Swedish Museum(wp twenty-twenty theme) written in nextJs.', number: '003/006', img: proj3, href: '#'},
-        {title: 'Wortex Polland', description: 'This is my latest freelance project. Only Layout. I think the project is dead.', number: "006", img: proj7, href: "#" },
+        {title: 'Wortex Polland', description: 'This is my latest freelance project. Only Layout. I think the project is currently dead.', number: "006", img: proj7, href: "#" },
         {title: 'TicTacToe', description: 'Simple TicTacToe app. TypeScript + Redux + ReactJs. Simple things the hard way.', number: '004/006', href: 'https://github.com/philosofonusus/TicTacToe', img: proj4},
         {title: 'TheCocktailDb', description: 'This is TheCocktailDb MERN fullstack project.', href: 'https://github.com/philosofonusus/TheCocktailDB', number: '005/006', img: proj5}
     ]
