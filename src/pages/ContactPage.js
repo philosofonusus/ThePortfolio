@@ -7,7 +7,7 @@ const ContactPage = _ => {
     //TODO Message send
     const send = (e) => {
         e.preventDefault()
-        emailjs.sendForm('service_t93tkgd' , 'template_x2gd85j', e.target,'user_kKIfPmIWmVdjBpwuBJCWq')
+        emailjs.sendForm(`${process.env.EMAILJS_SERVICEID}` , `${process.env.EMAILJS_TEMPLATEID}`, e.target,`${process.env.EMIALJS_USERID}`)
             .then(result => console.log(result))
         e.target.reset()
     }
