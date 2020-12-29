@@ -55,7 +55,7 @@ const AboutPage = () => {
                                                     For a backend, I use ExpressJs, so that
                                                     I can develop a backend very fast. I love to use TypeScript.
                                                     I know how to work with webpack and gulp. I sometimes work with docker,
-                                                    docker-compose, and docker hub. I also know the principles of SOLID.
+                                                    docker-compose, and docker hub. For development I use SOLID and KISS principles.
                                                     I know react native and I can develop mobile apps.
                                                 </p>
                                             </div>
