@@ -48,14 +48,15 @@ const AboutPage = () => {
                                                 </h3>
                                                 <p>
                                                     For a layout, I use a pure html and emmet. For a styling, I use CSS with SASS preprocessor, maybe
-                                                    bootstrap5 for fast coding. For a frontend, I use ReactJs because it's simple and very fast.
-                                                    When I want to do something fast and have a good SEO then I use nextJS which is good but im still learning.
-                                                    For a state management, I use Redux which I hate a lof or ReactContext which is simple.
-                                                    When I need db, I use MongoDb because it's simple, fast, and it is in MERN stack.
-                                                    For a backend, I use Node and ExpressJs framework because node is fast and express is simple, so that
-                                                    I can develop a backend very fast. I can use TypeScript, but I don't need to.
-                                                    I know how to work with webpack and gulp. I know how to work with the docker,
-                                                    docker-compose, and docker hub. I also know the concepts of SOLID.
+                                                    bootstrap5 for fast coding. For a frontend, I use ReactJs.
+                                                    When I want to do something fast and have a good SEO then I use nextJS
+                                                    For a state management, I use Redux which I hate a lof or Jotai, maybe ReactContext api.
+                                                    When I need db, I use MongoDb.
+                                                    For a backend, I use ExpressJs, so that
+                                                    I can develop a backend very fast. I love to use TypeScript.
+                                                    I know how to work with webpack and gulp. I sometimes work with docker,
+                                                    docker-compose, and docker hub. I also know the principles of SOLID.
+                                                    I know react native and I can develop mobile apps.
                                                 </p>
                                             </div>
                                             <div style={width < 992 ? {justifyContent: 'center', display: 'flex', marginTop: '40px'} :{paddingLeft: '10vw'}} className="col-xs-12 col-md-6">
