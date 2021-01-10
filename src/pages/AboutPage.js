@@ -48,15 +48,16 @@ const AboutPage = () => {
                                                 </h3>
                                                 <p>
                                                     For a layout, I use a pure html and emmet. For a styling, I use CSS with SASS preprocessor, maybe
-                                                    bootstrap5 for fast coding. For a frontend, I use ReactJs.
-                                                    When I want to do something fast and have a good SEO then I use nextJS
-                                                    For a state management, I use Redux which I hate a lof or Jotai, maybe ReactContext api.
-                                                    When I need db, I use MongoDb.
-                                                    For a backend, I use ExpressJs, so that
-                                                    I can develop a backend very fast. I love to use TypeScript.
-                                                    I know how to work with webpack and gulp. I sometimes work with docker,
-                                                    docker-compose, and docker hub. For development I use SOLID and KISS principles.
-                                                    I know react native and I can develop mobile apps.
+                                                    tailwind css framework for fast coding. For a frontend, I use ReactJs.
+                                                    When I want to do something fast, have a good SEO and performance then I use nextJS.
+                                                    For a state management, I use Redux (which I hate a lof) or Jotai, maybe ReactContext api.
+                                                    When I need db, I use MongoDb or if I need SEQUEL db I use Postgres.
+                                                    For a backend, use Fastify or Express.
+                                                    I love to use TypeScript.
+                                                    I know how to work with webpack and gulp. When I need containerization I work with docker,
+                                                    docker-compose, and docker hub. For development I follow SOLID and KISS principles.
+                                                    I prefer TDD over BDD. For TDD I prefer Enzyme and JEST.
+                                                    For mobile apps I choose react-native.
                                                 </p>
                                             </div>
                                             <div style={width < 992 ? {justifyContent: 'center', display: 'flex', marginTop: '40px'} :{paddingLeft: '10vw'}} className="col-xs-12 col-md-6">
